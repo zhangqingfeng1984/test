@@ -8,5 +8,9 @@ $phone-sprite-dimensions:true;
 	position:absolute;
 	left:40px;
 	top:80px;
-	@include phone-sprite(save)
+	@include phone-sprite(5)
+}
+
+body{
+	background: yellow;
 }

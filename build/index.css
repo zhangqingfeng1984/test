@@ -1,1 +1,26 @@
-.icons-sprite{background-image:url(../images/icons-s6b0da3da4c.png);background-repeat:no-repeat}.browser,.phone-sprite{background-image:url(../images/phone-s227e13016f.png);background-repeat:no-repeat}.browser{position:absolute;left:40px;top:80px;background-position:0 -1362px;height:64px;width:64px}
+/* line 56, icons/*.png */
+.icons-sprite {
+  background-image: url('/images/icons-s6b0da3da4c.png');
+  background-repeat: no-repeat;
+}
+
+/* line 248, phone/*.png */
+.phone-sprite, .browser {
+  background-image: url('/images/phone-s227e13016f.png');
+  background-repeat: no-repeat;
+}
+
+/* line 7, ../sass/index.scss */
+.browser {
+  position: absolute;
+  left: 40px;
+  top: 80px;
+  background-position: 0 -413px;
+  height: 59px;
+  width: 59px;
+}
+
+/* line 14, ../sass/index.scss */
+body {
+  background: yellow;
+}
