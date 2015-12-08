@@ -54,4 +54,9 @@ gulp.task('js', function(){
 	
 });
 
+gulp.task('server', function(){
+	var exec = require('child_process').exec;
+	exec('node nodeserver.js');
+});
+
 gulp.task('dev', ['css','js']);

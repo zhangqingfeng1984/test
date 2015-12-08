@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "compass-mixins": "^0.12.7",
+    "express": "^4.13.3",
     "http-server": "^0.8.5",
     "webpack-dev-server": "^1.14.0"
   },
