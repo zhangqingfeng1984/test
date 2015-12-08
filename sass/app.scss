@@ -1,32 +1,17 @@
 @import 'compass';
 @import 'compass/css3';
+@import "compass/utilities/sprites";
 /*@import 'compass/reset';*/
 
-@keyframes ef {
-	0% {width: 100px}
-	100% {width: 300px}
+/*
+$myicons-layout:horizontal;
+$icons-sprite-dimensions:true;
+@import 'icons/*.png';
+@include all-icons-sprites;
+
+
+.img-save{
+	@include icons-sprite(save);
 }
 
-body {
-	background: green;
-
-	.text{
-		color: yellow;
-		font-size: 20px;
-		font-family: Arial;
-	}
-}
-
-.icon {
-	border: 1px solid blue;
-	width: 200px;
-	height: 200px;
-	background: inline-image('bird.jpg');
-
-
-    &:hover{
-    	width: 400px;
-    	@include transition(all 0.5s);
-    	@include border-radius(5px);
-    }
-}
+*/

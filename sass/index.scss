@@ -1,0 +1,6 @@
+@import "compass/utilities/sprites";
+@import "sprites/icons";
+@include all-icons-sprites;
+.hello{
+	@include icons-sprite(save)
+}
