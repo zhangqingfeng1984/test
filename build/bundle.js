@@ -15,7 +15,7 @@ webpackJsonp([0,1],[
 	var share = __webpack_require__(2);
 	var PageA = {
 		init: function () {
-			share.hello('page A');
+			share.hello('page A 3');
 		}
 	};
 	module.exports = PageA;

@@ -1,6 +1,12 @@
 @import "compass/utilities/sprites";
-@import "sprites/icons";
-@include all-icons-sprites;
-.hello{
-	@include icons-sprite(save)
+@import "icons/*.png";
+
+$phone-sprite-dimensions:true;
+@import "phone/*.png";
+
+.browser{
+	position:absolute;
+	left:40px;
+	top:80px;
+	@include phone-sprite(save)
 }
